@@ -15,7 +15,7 @@ Frontend: HTML, CSS, JavaScript (Bootstrap for responsive design)
 Backend: PHP (for server-side logic)
 Database: MySQL (for storing user data, property listings, rental agreements, and payment records)
 
-#Core Features 
+##Core Features 
 
 i) Tenant Portal: Allows users to search for flats based on location, price, and amenities.
 
@@ -29,7 +29,7 @@ v) Map-Based Search: Integration with Google Maps to locate flats based on user 
 
 vi) Review & Rating System: Tenants and landlords can leave feedback to enhance transparency.
 
-#Innovative Aspects 
+##Innovative Aspects 
 - Incorporate filtering options for providing smart recommendations based on user preferences.
 - Verified listings to prevent fraudulent property postings. Like letting a landlord verify tenants by their NID before renting out a flat.
 - Secure online rental payment options.
@@ -40,7 +40,7 @@ Outline of the development process :
 Software Development Methodology: Agile SDLC Model
 System Architecture: Wil contain the Use case diagram of Smart Flat Rental Management System
 
-#Expected Challenges & Risks : 
+##Expected Challenges & Risks : 
 - Preventing fraudulent listings and ensuring data authenticity
 - Ensuring secure online payments and rental agreements
 - Encouraging adoption in a market dominated by traditional rental methods
