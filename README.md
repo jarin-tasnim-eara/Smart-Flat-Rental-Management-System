@@ -28,6 +28,7 @@ Incorporate filtering options for providing smart recommendations based on user 
 Verified listings to prevent fraudulent property postings. Like letting a landlord verify tenants by their NID before renting out a flat.
 Secure online rental payment options.
 Eliminating the need for brokers through a direct landlord-tenant connection as the platform will be free for all and no commission will be applied.
+
 5. Methodology
 Outline of the development process :
 Software Development Methodology: Agile SDLC Model
