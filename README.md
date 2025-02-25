@@ -16,6 +16,7 @@ Backend: PHP (for server-side logic)
 Database: MySQL (for storing user data, property listings, rental agreements, and payment records)
 
 #Core Features 
+
 i) Tenant Portal: Allows users to search for flats based on location, price, and amenities.
 ii) Landlord Dashboard: Enables landlords to list properties, manage tenant requests, and track payments.
 iii) Real-Time Notifications: Updates tenants and landlords on new listings, requests, and payment reminders.
