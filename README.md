@@ -18,10 +18,15 @@ Database: MySQL (for storing user data, property listings, rental agreements, an
 #Core Features 
 
 i) Tenant Portal: Allows users to search for flats based on location, price, and amenities.
+
 ii) Landlord Dashboard: Enables landlords to list properties, manage tenant requests, and track payments.
+
 iii) Real-Time Notifications: Updates tenants and landlords on new listings, requests, and payment reminders.
+
 iv) Digital Rental Agreements: Secure e-agreements to formalize rental deals.
+
 v) Map-Based Search: Integration with Google Maps to locate flats based on user preferences.
+
 vi) Review & Rating System: Tenants and landlords can leave feedback to enhance transparency.
 
 #Innovative Aspects 
@@ -44,6 +49,9 @@ System Architecture: Wil contain the Use case diagram of Smart Flat Rental Manag
 The final product will be a web-based platform that simplifies the rental process for urban residents. It will reduce the dependency on brokers, provide secure rental transactions, and improve transparency between tenants and landlords.
 
 6. Tools & Resources Needed
+   
 Development Tools: XAMPP, Visual Studio Code
+
 Testing Environment: Local server for development and deployment
+
 Additional Resources: Geographic rental data
