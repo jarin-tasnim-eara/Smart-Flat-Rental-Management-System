@@ -15,7 +15,7 @@ Frontend: HTML, CSS, JavaScript (Bootstrap for responsive design)
 Backend: PHP (for server-side logic)
 Database: MySQL (for storing user data, property listings, rental agreements, and payment records)
 
-##Core Features 
+## Core Features 
 
 i) Tenant Portal: Allows users to search for flats based on location, price, and amenities.
 
@@ -29,12 +29,12 @@ v) Map-Based Search: Integration with Google Maps to locate flats based on user 
 
 vi) Review & Rating System: Tenants and landlords can leave feedback to enhance transparency.
 
-##Innovative Aspects 
+## Innovative Aspects 
 - Incorporate filtering options for providing smart recommendations based on user preferences.
 - Verified listings to prevent fraudulent property postings. Like letting a landlord verify tenants by their NID before renting out a flat.
 - Secure online rental payment options.
 - Eliminating the need for brokers through a direct landlord-tenant connection as the platform will be free for all and no commission will be applied.
-- 
+  
 4. Methodology
 Outline of the development process :
 Software Development Methodology: Agile SDLC Model
