@@ -10,7 +10,7 @@ Offer secure digital agreements and rental payment tracking.
 Integrate a location-based search feature to help tenants find flats in preferred areas.
 
 ## 3. Proposed Solution
-## Technology Stack
+### 3.1 Technology Stack
 
 **Frontend:** HTML, CSS, JavaScript (Bootstrap for responsive design)
 
@@ -18,7 +18,7 @@ Integrate a location-based search feature to help tenants find flats in preferre
 
 **Database:** MySQL (for storing user data, property listings, rental agreements, and payment records)
 
-## Core Features 
+### 3.2 Core Features 
 
 **i) Tenant Portal:** Allows users to search for flats based on location, price, and amenities.
 
@@ -32,7 +32,7 @@ Integrate a location-based search feature to help tenants find flats in preferre
 
 **vi) Review & Rating System:** Tenants and landlords can leave feedback to enhance transparency.
 
-## Innovative Aspects 
+### 3.3 Innovative Aspects 
 - Incorporate filtering options for providing smart recommendations based on user preferences.
 - Verified listings to prevent fraudulent property postings. Like letting a landlord verify tenants by their NID before renting out a flat.
 - Secure online rental payment options.
@@ -46,7 +46,7 @@ Integrate a location-based search feature to help tenants find flats in preferre
 
 **System Architecture:** Wil contain the Use case diagram of Smart Flat Rental Management System
 
-## Expected Challenges & Risks : 
+### 4.1 Expected Challenges & Risks : 
 
 - Preventing fraudulent listings and ensuring data authenticity
 - Ensuring secure online payments and rental agreements
