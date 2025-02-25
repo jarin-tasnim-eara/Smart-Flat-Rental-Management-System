@@ -1,4 +1,4 @@
-# Smart-Flat-Rental-Management-System
+## Smart-Flat-Rental-Management-System
 1. Problem Statement
 Finding rental flats in urban areas of Bangladesh, especially in cities like Dhaka and Chattogram, is a challenging and time-consuming process. Many tenants rely on brokers, who often charge high fees, and landlords struggle to find reliable tenants. Additionally, the lack of a centralized rental database leads to miscommunication, fraudulent listings, and difficulty in comparing rental options. This project aims to develop a web-based system that connects tenants, landlords, and real estate agents to streamline the rental process efficiently.
 
