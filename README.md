@@ -64,4 +64,6 @@ The final product will be a web-based platform that simplifies the rental proces
 
 **Additional Resources:** Geographic rental data
 
+Rakibul Hasan
+
 
