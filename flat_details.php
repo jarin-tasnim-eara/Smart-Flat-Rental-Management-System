@@ -23,19 +23,13 @@ if (!$flat) {
     <title><?php echo htmlspecialchars($flat['flat_name']); ?> - Aurora Properties</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
-        body {
-            background-image: url('https://images.unsplash.com/photo-1564937494144-59898c6afbd2?q=80&w=1523&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-        }
         .main-image { height: 400px; object-fit: cover; }
         .gallery-image { height: 200px; object-fit: cover; }
     </style>
 </head>
 <body>
 
-    <!-- Navigation Bar -->
+    <!-- Navigation Bar (Same as index.php) -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand fw-bold" href="index.php">AURORA Properties</a>
@@ -60,29 +54,36 @@ if (!$flat) {
                     <div class="col-md-6">
                         <h4>Property Details</h4>
                         <ul class="list-group">
-                            <li class="list-group-item"><strong>Bedrooms:</strong> <?php echo $flat['bedrooms']; ?></li>
-                            <li class="list-group-item"><strong>Bathrooms:</strong> <?php echo $flat['bathrooms']; ?></li>
-                            <li class="list-group-item"><strong>Size:</strong> <?php echo number_format($flat['square_feet']); ?> sq.ft</li>
+                            <li class="list-group-item">
+                                <strong>Bedrooms:</strong> <?php echo $flat['bedrooms']; ?>
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Bathrooms:</strong> <?php echo $flat['bathrooms']; ?>
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Size:</strong> <?php echo number_format($flat['square_feet']); ?> sq.ft
+                            </li>
                         </ul>
                     </div>
+                    
                     <div class="col-md-6">
-                        <h4>Amenities</h4>
-                        <div class="row">
-                        <?php 
-                        $amenities = !empty($flat['amenities']) ? json_decode($flat['amenities'], true) : [];
-                        if (!empty($amenities)) {
-                            foreach ($amenities as $amenity): ?>
-                            <div class="col-6 mb-2">
-                                <span class="badge bg-primary"><?php echo htmlspecialchars($amenity); ?></span>
-                            </div>
-                        <?php endforeach; 
-                        } else { ?>
-                            <div class="col-12">
-                                <p class="text-muted">No amenities listed</p>
-                            </div>
-                        <?php } ?>
-                        </div>
-                    </div>
+             <h4>Amenities</h4>
+             <div class="row">
+             <?php 
+              $amenities = !empty($flat['amenities']) ? json_decode($flat['amenities'], true) : [];
+                if (!empty($amenities)) {
+                 foreach ($amenities as $amenity): ?>
+                <div class="col-6 mb-2">
+                    <span class="badge bg-primary"><?php echo htmlspecialchars($amenity); ?></span>
+                </div>
+            <?php endforeach; 
+                } else { ?>
+            <div class="col-12">
+                <p class="text-muted">No amenities listed</p>
+            </div>
+        <?php } ?>
+    </div>
+</div>
                 </div>
 
                 <!-- Image Gallery -->
@@ -101,10 +102,10 @@ if (!$flat) {
                 <div class="mt-4 border-top pt-3">
                     <div class="row g-2">
                         <div class="col-md-6">
-                            <a href="https://wa.me/<?php echo $flat['contact_phone']; ?>" target="_blank" class="btn btn-success w-100">Contact via WhatsApp</a>
+                            <a href="mailto:<?php echo $flat['contact_email']; ?>" class="btn btn-primary w-100">Email Owner</a>
                         </div>
                         <div class="col-md-6">
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=<?php echo $flat['contact_email']; ?>&su=Property%20Inquiry" target="_blank" class="btn btn-primary w-100">Contact via Gmail</a>
+                            <a href="tel:<?php echo $flat['contact_phone']; ?>" class="btn btn-primary w-100">Call Owner</a>
                         </div>
                     </div>
                 </div>
